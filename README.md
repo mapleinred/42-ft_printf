@@ -19,6 +19,7 @@ A custom implementation of the printf function in C, created as part of the curr
 - Null Strings: Prints "(null)" for %s if the string is NULL.
 - Zero Pointers: Prints "(nil)" for %p if the pointer is 0.
 - Memory Safety: All allocated memory is properly freed.
+- Direct system calls: Uses `write` for output.
 
 ---
 
@@ -70,18 +71,3 @@ This project was developed to:
 - Practice writing structured, extensible, and norm-compliant code (per 42 School’s guidelines).
 - Prepare for future C projects by creating a reusable library.
 
----
-
-## How This Helps in Job Search
-
-- Proficiency in C: Demonstrates strong grasp of core C concepts, including pointers, memory, and system calls.
-- Problem-Solving: Shows ability to reverse-engineer and replicate complex functionality.
-- Attention to Detail: Handles edge cases and adheres to strict coding standards.
-- Code Quality: Highlights clean, modular, and documented code—key traits for collaborative work.
-
----
-
-## Notes
-
-- Bonus Features: This implementation covers the mandatory requirements. Flags like #, +, and width specifiers are not included.
-- Testing: Thoroughly tested against printf for consistency. Contributions to test coverage are welcome.
