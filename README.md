@@ -31,7 +31,7 @@ A custom implementation of the printf function in C, created as part of the curr
 
 2. Compile the Library:
    Run "make" to build the static library libftprintf.a:
-   make
+   make![alt text](image.png)
 
 3. Use in Your Project:
    Include the header ft_printf.h in your code and link the library during compilation:
@@ -51,6 +51,14 @@ int main() {
 
 Output:
 Hello, world! 42 in hex is 2a.
+
+---
+## Makefile Targets
+1. make: builds libft.a
+2. make clean: removes object files
+3. make fclean: removes object files and libft.a
+4. make re: rebuilds everything
+5. make bonus: builds additional bonus list functions
 
 ---
 
